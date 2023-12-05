@@ -1,0 +1,64 @@
+.cont1{
+  margin-left: 0.1%;
+  margin-right: 2%;
+  width: 113%;
+  height: 300%;
+  background-color: #25A069;
+  padding: 8px;
+  border-radius: 18px;
+  align-items: center;
+}
+.element{
+  padding: 4%;
+  margin-left: 6%;
+  margin-right: 6%;
+  width: 100%;
+  background-color: azure;
+
+}
+.conteneur{
+  padding-top: 20px;
+  padding-right: 43px;
+}
+.imag{
+  display: flex;
+  justify-content: space-between;
+}
+h4{
+  text-align: start;
+  font-size: 12px;
+  margin-left: 5%;
+}
+h6{
+  text-align: end;
+font-size: 10px;
+margin-right: 5%;
+}
+.titreFm{
+  font-size: 70px;
+  margin: 0px;
+}
+.logoRadio{
+  display: flex;
+  margin-right: 1px;
+}
+.h3{
+  font-size: 18px;
+  text-align: right;
+}
+
+.cont2{
+  width: 108%;
+  height: 80px;
+  border-radius: 30px;
+  justify-content: center;
+  padding: 1px;
+  margin: 8px;
+  margin-left: 9%;
+  margin-right: 9%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(12, 12, 12);
+  margin: 6%;
+  box-shadow: rgb(2, 224, 150);
+  border: 1px solid rgb(225, 230, 225);
+}

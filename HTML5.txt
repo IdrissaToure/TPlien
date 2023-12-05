@@ -1,0 +1,120 @@
+.cont1{
+  // margin: 3;
+  // margin-left: 34.4%;
+  // margin-right: 30%;
+  width: 100%;
+  background-color: #25A069;
+  padding: 8px;
+  border-radius: 10px;
+  // justify-content: space-evenly;
+  align-items: center;
+}
+.element{
+  padding-left: 5%;
+  margin-left: 5%;
+  width: 100%;
+  height: 100%;
+  background-color: azure;
+
+}
+.conteneur{
+  padding-top: 20px;
+}
+.imag{
+  display: flex;
+  justify-content: space-between;
+}
+h4{
+  text-align: start;
+  font-size: 12px;
+}
+h6{
+  text-align: end;
+font-size: 11px;
+}
+.titreFm{
+  font-size: 70px;
+  margin: 0px;
+}
+.logoRadio{
+  margin-right: 15px;
+}
+.h3{
+  font-size: 18px;
+  text-align: right;
+}
+.container{
+  background-color: rgb(252, 248, 248);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(26, 245, 37);
+  // margin-left: 34.4%;
+  // margin-right: 40%;
+  border-radius: 2px;
+  padding: 10px;
+  margin: 40px;
+  margin-right: 5;
+  width: 100%;
+}
+.cont2{
+  border-radius: 24px;
+  padding: 3px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: white;
+  color: rgb(12, 12, 12);
+  // margin: 2%;
+  box-shadow: rgb(2, 224, 150);
+  border: 1px solid rgb(23, 24, 23);
+}
+
+-------------------------------------------------------------------------------------------------------------------------
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large"><h1>Radio</h1></ion-title>
+    </ion-toolbar>
+  </ion-header>
+        <div class="headRoundVert">
+          <div class="headRoundBlanc">
+          </div>
+        </div>
+         <div class="element">
+          <div class="conteneur">
+          <div class="cont1">
+            <div class="imag">
+              <p class="titreFm">FM</p>
+              <img class="logoRadio" src="../../../assets/radio.png" alt="">
+            </div>
+            <div class="h3"><h3>Mhz</h3></div>
+            </div>
+        <div class="container">
+        <div class="cont2">
+          <h4 >RADIO DAMBE FM </h4>
+          <h6 >90.6 Mhz</h6>
+        </div>
+        <div class="cont2">
+          <h4 >RADIO NIETA  FM </h4>
+          <h6 >92.8 Mhz</h6>
+        </div>
+        <div class="cont2">
+          <h4>ISLAMIQUE FM </h4>
+          <h6>95.10 Mhz</h6>
+        </div>
+        <div class="cont2">
+          <h4>NOUR DINE FM </h4>
+          <h6>100 Mhz</h6>
+        </div>
+        <div class="cont2">
+          <h4 >SILAMIYA FM </h4>
+          <h6 >100.5 Mhz</h6>
+        </div>
+        <div class="cont2">
+          <h4>DINE KUNKA FM </h4>
+          <h6>100.10 Mhz</h6>
+        </div>
+      </div>
+    </div>
+    </div>
+</ion-content>

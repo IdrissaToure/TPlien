@@ -1,0 +1,29 @@
+Cours SQL DB
+
+SELECT prénom,nom,age FROM client; pour afficher 3 donne de tableu.
+
+SELECT id,prénom,nom,age,sexe FROM client; pour afficher touts le tableu.
+
+SELECT * FROM client; sa aussi afficher tous.
+
+SELECT * FROM client limit 5; pour afficher 5 element de tableau. 
+
+SELECT * FROM client WHERE nom like "Diallo"; pour afficher tous les Diallo
+
+SELECT * FROM client WHERE nom like "D%"; pour afficher les nom qui commence par D
+
+SELECT * FROM 'client' WHERE age <26; pour afficher l'age qui est infiriere.
+
+SELECT * FROM 'client' WHERE age between 10 and 25 ; pour afficher l'age qui trouve entre 10 et 25.
+
+SELECT * FROM `client` WHERE sexe = 'Femme'; pour afficher femme seul.
+
+SELECT `id`,`Prénom`,`Nom`,`age` from client ORDER by `Prénom` asc; pour afficher tous sans sexe en mode asc.
+
+SELECT `id`,`Prénom`,`Nom`,`age` from client ORDER by `Prénom` desc; pour affiher tous sasn sexe en mode desc.
+
+SELECT COUNT(id)as nombre_femme FROM client where sexe ='Homme' group by sexe; afficher le group sexe Femme.
+
+insert into client values (null,'Moussa','Cisse',30,'Homme'); pour faire insere dans le base de donne.
+
+insert into client values (null,'Moussa','Cisse',30,'Homme'); duexieme methode.

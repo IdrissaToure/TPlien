@@ -1,0 +1,183 @@
+// Classe Utilisateur
+public class Utilisateur {
+    private String nom;
+    
+    // Constructeur
+    public Utilisateur(String nom) {
+        this.nom = nom;
+    }
+    
+    // Getter
+    public String getNom() {
+        return nom;
+    }
+    
+    // Setter
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+}
+
+// Classe Apprenant, hérite de Utilisateur
+public class Apprenant extends Utilisateur {
+    private int niveau;
+
+    // Constructeur
+    public Apprenant(String nom, int niveau) {
+        super(nom);
+        this.niveau = niveau;
+    }
+
+    // Getter
+    public int getNiveau() {
+        return niveau;
+    }
+
+    // Setter
+    public void setNiveau(int niveau) {
+        this.niveau = niveau;
+    }
+}
+
+// Classe Formateur, hérite de Utilisateur
+public class Formateur extends Utilisateur {
+    private String specialite;
+
+    // Constructeur
+    public Formateur(String nom, String specialite) {
+        super(nom);
+        this.specialite = specialite;
+    }
+
+    // Getter
+    public String getSpecialite() {
+        return specialite;
+    }
+
+    // Setter
+    public void setSpecialite(String specialite) {
+        this.specialite = specialite;
+    }
+}
+
+// Classe Promotion
+public class Promotion {
+    private String nom;
+    private int annee;
+
+    // Constructeur
+    public Promotion(String nom, int annee) {
+        this.nom = nom;
+        this.annee = annee;
+    }
+
+    // Getter
+    public String getNom() {
+        return nom;
+    }
+
+    // Setter
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+
+    // Getter
+    public int getAnnee() {
+        return annee;
+    }
+
+    // Setter
+    public void setAnnee(int annee) {
+        this.annee = annee;
+    }
+}
+
+// Classe Pointage
+public class Pointage {
+    private String date;
+    private int nombreHeures;
+
+    // Constructeur
+    public Pointage(String date, int nombreHeures) {
+        this.date = date;
+        this.nombreHeures = nombreHeures;
+    }
+
+    // Getter
+    public String getDate() {
+        return date;
+    }
+
+    // Setter
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    // Getter
+    public int getNombreHeures() {
+        return nombreHeures;
+    }
+
+    // Setter
+    public void setNombreHeures(int nombreHeures) {
+        this.nombreHeures = nombreHeures;
+    }
+}
+
+// Interface FonctionDeBase
+public interface FonctionDeBase {
+    void methode1();
+    void methode2();
+}
+
+// Classe qui implémente l'interface FonctionDeBase
+public class ClasseImplementantInterface implements FonctionDeBase {
+    @Override
+    public void methode1() {
+        System.out.println("Implémentation de la méthode 1");
+    }
+
+    @Override
+    public void methode2() {
+        System.out.println("Implémentation de la méthode 2");
+    }
+}
+
+// Exemple de polymorphisme d'héritage
+public class PolymorphismeHeritageExample {
+    public static void main(String[] args) {
+        Utilisateur user1 = new Apprenant("Alice", 2);
+        Utilisateur user2 = new Formateur("Bob", "Java");
+
+        System.out.println(user1.getNom()); // Appel du getter de Utilisateur
+        System.out.println(user2.getNom()); // Appel du getter de Utilisateur
+
+        // Le polymorphisme permet d'utiliser des objets dérivés comme des objets de la classe de base
+        Apprenant apprenant = (Apprenant) user1;
+        System.out.println(apprenant.getNiveau()); // Appel du getter spécifique à Apprenant
+
+        Formateur formateur = (Formateur) user2;
+        System.out.println(formateur.getSpecialite()); // Appel du getter spécifique à Formateur
+    }
+}
+
+// Exemple de polymorphisme de surcharge
+public class PolymorphismeSurchargeExample {
+    public static void main(String[] args) {
+        afficherInfo("John");
+        afficherInfo(25);
+        afficherInfo(1.75);
+    }
+
+    public static void afficherInfo(String nom) {
+        System.out.println("Nom : " + nom);
+    }
+
+    public static void afficherInfo(int age) {
+        System.out.println("Âge : " + age);
+    }
+
+    public static void afficherInfo(double taille) {
+        System.out.println("Taille : " + taille);
+    }
+}

@@ -1,0 +1,7 @@
+Pourquoi TypeScript et pas JavaScript ?
+Contrairement à JavaScript, le code TypeScript est plus fiable et plus facile à remanier. Cela permet aux développeurs d'éviter les erreurs et de procéder à des réécritures beaucoup plus facilement.
+Quand utiliser TypeScript ? et pourquoi il ets recommade 
+Si vous créez une application ou un produit au niveau de l'entreprise dans lequel la structure du système est requise, alors le langage TypeScript est recommandé. La raison en est que TypeScript permet de développer et de maintenir facilement le projet avec moins de bugs.
+
+TypeScript vs JavaScript performance
+TypeScript se compile en JavaScript, ce qui signifie que le code TS que vous écrivez sera converti en JS avant d'être exécuté. Cela permet des temps d'exécution plus rapides que JS puisque tout le travail est effectué à l'avance. Gagnant : en ce qui concerne les performances de TypeScript par rapport à JavaScript, TypeScript s'exécute plus rapidement .

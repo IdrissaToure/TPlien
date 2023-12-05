@@ -1,0 +1,68 @@
+le lien de  framwork
+https://www.synonyme-du-mot.com/les-articles/est-ce-que-react-est-un-framework
+le lien de CV
+https://docs.google.com/spreadsheets/d/1im0JLayzP5jnyD6VvGoRCUNKiLdRGDgmTc6lXvZUp8s/edit?usp=sharing
+le lien de FIGMA ET GETTHUBs
+https://docs.google.com/spreadsheets/d/1Kmh0k-TS0DD-GuVKOtCw17wWOs4mpavyaUIeFxbU0xU/edit#gid=0
+Comment installer et utiliser "Picture Downloader" :
+le lien de la vidéo tuto : https://drive.google.com/file/d/1M7xwm94f2wam_9JyHA8ALPrfNBlqa44q/view?usp=share_link
+le lien de la UML
+http://vmascare.free.fr/GU_SPINOV_CommentLireLesDiagrammesUML_1.0.pdf
+le lien de la module de diagramme
+https://support.microsoft.com/fr-fr/office/mod%C3%A8les-et-diagrammes-visio-en-vedette-27d4274b-5fc2-4f5c-8190-35ff1db34aa5?ui=fr-fr&amp;rs=en-us&amp;ad=us&rs=fr-fr&ad=fr#bkmk_basicumlsequence:rofl:
+le lien de cours UML
+https://lipn.univ-paris13.fr/~gerard/uml-s2/uml-cours04.html#:~:text=Il%20y%20a%20g%C3%A9n%C3%A9ralisation%20entre,commercial%2C%20plus%20d'autres%20choses  Un peu de lecture
+Un peu de lecture ,, ci-joint Manifest Agile https://agilemanifesto.org/iso/fr/manifesto.html
+le lien de cours JS
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions
+le lien de cours de java
+https://openclassrooms.com/fr/courses/6173501-apprenez-a-programmer-en-java?archived-source=26832
+le lien de cours2 de java
+https://www.geeksforgeeks.org/date-class-java-examples/
+le lien de swagger spring boot
+http://localhost:8080/swagger-ui/index.html
+
+le lien de programmation
+https://www.geeksforgeeks.org/java/?ref=ghm
+le lien de programmation Angular et Ionic
+https://atomrace.com/angular-5-component-template-modele-et-service/
+Comment installer Django
+(Lien documentation :https://www.djangoproject.com/download/)
+
+tracas du développement Web, vous pouvez donc vous concentrer sur l'écriturede votre application sans avoir à réinventer la roue. C'est gratuit et open source.(Lien documentation:https://www.djangoproject.com/start/overview/)
+
+PythonPython est un langage de programmation puissant et facile à apprendre. Ildispose de structures de données de haut niveau et permet une approche simplemais efficace de la programmation orientée objet. Parce que sa syntaxe estélégante, que son typage est dynamique et qu'il est interprété, Python est unlangage idéal pour l'écriture de scripts et le développement rapided'applications dans de nombreux domaines et sur la plupart des plateformes.(Lien documentation:https://docs.python.org/fr/3/tutorial/,https://www.python.org/,https://www.python.org/about/)3-1-1. Télécharger python(Lien Téléchargement:https://www.python.org/downloads/)3-2. Installer Django3-2-1. Environnement virtuelsUn environnementvirtuelest un dossier qui contientune installation de Pythonpour une version particulière de Python ainsi que des paquets additionnels
+Documentation de Typescripte
+https://www.typescriptlang.org/fr/docs/
+le lien pour mien comprandre la programmation Angular
+https://www.ganatan.com/tutorials/routing-avec-angular
+le lien pour mien comprandre la CSS
+https://developer.mozilla.org/fr/docs/Web/CSS/Layout_cookbook/Split_Navigation
+le lien pour mien comprandre la CSS
+https://v1.tailwindcss.com/components/forms
+le lien pour mien comprandre la CSS et HTML
+https://codepen.io/Harish-kumar-choudhary/pen/eYbzmXm
+le lien pour le blog codeur 
+https://www.codeur.com/blog/
+le lien pour le flutter
+https://www.codecademy.com/article/check-your-flutter-installation-with-flutter-doctor
+le lien pour le Dart
+https://dart.dev/
+le lien pour le flutter code labe
+https://codelabs.developers.google.com/codelabs/flutter-codelab-first?hl=fr#1
+le lien pour commprender le diferent langageu 
+https://infoforall.fr/index.html
+le lien pour apprendre alphabete arabe
+https://jeretiens.net/lalphabet-arabe-les-28-lettres/
+le lien pour mien comprandre HTML et CSS
+https://developer.mozilla.org/fr/
+le lien pour mien comprandre tous les code web, app mobile, logiciel
+https://www.developpez.com/
+le lien pour mien comprandre wordpress
+https://wordpress.com/fr/
+le lien pour mien comprandre devllopement web & mobile
+https://appery.io/
+le lien pour mien comprandre SQL
+https://sql.sh/
+le lien pour mien comprandre UML
+https://www.lucidchart.com/pages/fr/exemple/uml-online
